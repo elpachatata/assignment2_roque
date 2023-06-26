@@ -1,0 +1,26 @@
+//Exercise 1//
+let arrayNumbers = [1, 3, -1, 5, -3, 10];
+let sum = 0;
+arrayNumbers.forEach(num => {
+  if (num > 0) {
+    console.log(num);
+    sum += num;
+  }
+});
+console.log('Sum of all is ' + sum);
+
+//Exercise 2//
+function  sumArray(arr) {
+    let sum = 0;
+
+    arr.forEach((element) => {
+        console.log(element);
+        sum += element;
+    });
+    return sum;
+}
+    //Exercise 3/
+   const array1 = ["a", "b", "c"];
+   array1.forEach((element) => console.log(element));
+
+
